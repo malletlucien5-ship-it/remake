@@ -9,7 +9,7 @@ Remake is a small engine (`engine/`, Node + Playwright) and a skill that tells C
 - if the response is already recorded, the browser gets the recording;
 - if not, it's fetched once, kept, and handed to the browser.
 
-So the phone visit reuses everything the desktop visit loaded, and every scoring run later replays the original from the recording without asking the site again. The browser identifies itself: its user agent ends with `Remake/<version> (+https://github.com/rubenhassid1/remake)`.
+So the phone visit reuses everything the desktop visit loaded, and every scoring run later replays the original from the recording without asking the site again. The browser identifies itself: its user agent ends with `Remake/<version> (+https://github.com/malletlucien5-ship-it/remake)`.
 
 Files the visit never loaded (other `srcset` widths, unused font weights, source maps, plain video files) are fetched afterwards by `Polite`: one request at a time per host, half a second apart, a 404 remembered so it's never asked twice. If a host fails twice in a row, Remake stops asking it and looks in the Internet Archive instead (CDX lookup, skipping archived bot-check pages).
 

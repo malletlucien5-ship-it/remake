@@ -11,7 +11,7 @@ One line in Claude Code turns a URL into a copy that matches the original on eve
 </div>
 
 ```text
-/goal Remake https://example.com with github.com/rubenhassid1/remake until its report says REMAKE COMPLETE, or stop after 100 turns.
+/goal Remake https://example.com with github.com/malletlucien5-ship-it/remake until its report says REMAKE COMPLETE, or stop after 100 turns.
 ```
 
 Change the URL. That's the whole prompt.
@@ -24,7 +24,7 @@ Change the URL. That's the whole prompt.
 
 | You want | Say |
 | --- | --- |
-| The whole site, not one page | `/goal Remake https://example.com and its main pages with github.com/rubenhassid1/remake until its report says REMAKE COMPLETE, or stop after 150 turns.` |
+| The whole site, not one page | `/goal Remake https://example.com and its main pages with github.com/malletlucien5-ship-it/remake until its report says REMAKE COMPLETE, or stop after 150 turns.` |
 | To make it yours | `Here are my photos (~/Desktop/photos), my logo and my LinkedIn bio. Make my remake mine.` |
 | An editable codebase | `Turn my remake into a Next.js app, section by section, keeping the score passing.` |
 | A site that blocks robots | `Remake https://example.com from the Internet Archive's copy.` |
@@ -76,7 +76,7 @@ It's built for Claude Code's `/goal`: the `/goal` judge only reads the conversat
 **2. As a Claude Code plugin.**
 
 ```text
-/plugin marketplace add rubenhassid1/remake
+/plugin marketplace add malletlucien5-ship-it/remake
 /plugin install remake@remake
 ```
 
@@ -85,7 +85,7 @@ Then `/remake https://example.com`, or keep it running until it's done with `/go
 **3. As a command-line tool.**
 
 ```bash
-npm install -g github:rubenhassid1/remake
+npm install -g github:malletlucien5-ship-it/remake
 remake doctor --fix
 remake init https://example.com && cd ~/remakes/example-com
 remake capture && remake score

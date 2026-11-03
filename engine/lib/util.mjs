@@ -4,7 +4,7 @@ import path from "node:path";
 import crypto from "node:crypto";
 
 export const VERSION = "0.1.0";
-export const UA_SUFFIX = `Remake/${VERSION} (+https://github.com/rubenhassid1/remake)`;
+export const UA_SUFFIX = `Remake/${VERSION} (+https://github.com/malletlucien5-ship-it/remake)`;
 
 export const say = (msg = "") => process.stdout.write(msg + "\n");
 export const ok = (msg) => say(`  ✓ ${msg}`);

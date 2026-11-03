@@ -120,7 +120,7 @@ export async function ship(project, opts = {}) {
   }
   sh("git", ["add", "-A"], { cwd: root });
   const dirty = !sh("git", ["diff", "--cached", "--quiet"], { cwd: root, allowFail: true }).ok;
-  if (dirty) sh("git", ["commit", "-m", `Remake of ${cfg.url}`, "-m", "Made with https://github.com/rubenhassid1/remake"], { cwd: root });
+  if (dirty) sh("git", ["commit", "-m", `Remake of ${cfg.url}`, "-m", "Made with https://github.com/malletlucien5-ship-it/remake"], { cwd: root });
   const hasOrigin = sh("git", ["remote", "get-url", "origin"], { cwd: root, allowFail: true }).ok;
   if (!hasOrigin) {
     sh("gh", ["repo", "create", name, "--private", "--source", ".", "--remote", "origin", "--push"], { cwd: root });

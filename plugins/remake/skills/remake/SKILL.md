@@ -1,6 +1,6 @@
 ---
 name: remake
-description: Remake any website pixel for pixel with the Remake engine, ship it to the user's private GitHub repo and Vercel behind a passcode, then build the swap board that makes it theirs. Use when someone asks to remake, clone, copy, rebuild or reverse-engineer a website or landing page, wants "this site, but mine", or sends "/goal Remake <url> with github.com/rubenhassid1/remake …".
+description: Remake any website pixel for pixel with the Remake engine, ship it to the user's private GitHub repo and Vercel behind a passcode, then build the swap board that makes it theirs. Use when someone asks to remake, clone, copy, rebuild or reverse-engineer a website or landing page, wants "this site, but mine", or sends "/goal Remake <url> with github.com/malletlucien5-ship-it/remake …".
 ---
 
 # Remake
@@ -12,7 +12,7 @@ The finish line is the last line of `remake report`: **REMAKE COMPLETE**. Under 
 ## 0. Set up the engine (once per machine)
 
 ```bash
-[ -d ~/.remake ] || gh repo clone rubenhassid1/remake ~/.remake -- --depth 1 || git clone --depth 1 https://github.com/rubenhassid1/remake ~/.remake
+[ -d ~/.remake ] || gh repo clone malletlucien5-ship-it/remake ~/.remake -- --depth 1 || git clone --depth 1 https://github.com/malletlucien5-ship-it/remake ~/.remake
 git -C ~/.remake pull --ff-only --quiet; npm --prefix ~/.remake install --silent
 npm install -g ~/.remake --silent   # puts a `remake` command on the PATH
 remake doctor --fix

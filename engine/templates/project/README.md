@@ -1,6 +1,6 @@
 # Remake of {{url}}
 
-Made with [Remake](https://github.com/rubenhassid1/remake). Private until it's yours.
+Made with [Remake](https://github.com/malletlucien5-ship-it/remake). Private until it's yours.
 
 | Where | What |
 | --- | --- |

@@ -11,8 +11,8 @@
       "description": "Remake any website pixel for pixel, ship it privately to your GitHub and Vercel, then make it yours.",
       "version": "0.1.0",
       "author": { "name": "Ruben Hassid from the newsletter How to AI", "url": "https://ruben.substack.com" },
-      "homepage": "https://github.com/rubenhassid1/remake",
-      "repository": "https://github.com/rubenhassid1/remake",
+      "homepage": "https://github.com/malletlucien5-ship-it/remake",
+      "repository": "https://github.com/malletlucien5-ship-it/remake",
       "license": "MIT",
       "category": "development",
       "keywords": ["website", "clone", "remake", "pixel-perfect", "vercel", "github"]

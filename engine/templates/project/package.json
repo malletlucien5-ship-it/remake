@@ -2,7 +2,7 @@
   "name": "{{name}}",
   "private": true,
   "type": "module",
-  "description": "Remake of {{url}}, made with github.com/rubenhassid1/remake",
+  "description": "Remake of {{url}}, made with github.com/malletlucien5-ship-it/remake",
   "scripts": {
     "build": "node -e \"console.log('Static site: nothing to build. Files are in site/.')\""
   },
